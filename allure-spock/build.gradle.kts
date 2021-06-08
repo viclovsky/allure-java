@@ -4,7 +4,7 @@ apply(plugin = "groovy")
 
 val agent: Configuration by configurations.creating
 
-val spockFrameworkVersion = "1.3-groovy-2.5"
+val spockFrameworkVersion = "2.0-groovy-3.0"
 
 dependencies {
     agent("org.aspectj:aspectjweaver")
